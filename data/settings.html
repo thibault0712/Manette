@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <title>Paramètres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="w3-animate-opacity">
+
+    <div class="w3-card w3-blue w3-padding-small w3-center">
+        <h1>Paramètres</h1>
+    </div>
+
+    <div class="w3-panel w3-red" id="errorLenght" style="display: none; text-align: center; width: 100%;">
+        <h3>Erreur</h3>
+        <p>Le mot de passe doit contenir au moins 8 caractères !</p>
+    </div>
+    
+    <div class="w3-panel w3-green" id="success" style="display: none; text-align: center; width: 100%;">
+        <h3>Changement effectué</h3>
+        <p>Le changement a été effectué avec succès !</p>
+    </div> 
+
+    <div class="w3-panel w3-yellow" id="warningConnection" style="display: none; text-align: center; width: 100%;">
+        <h3>Attention</h3>
+        <p>Pour continuer les modifications reconnecté vous à la télécommande avec le nouveau mot de passe</p>
+      </div> 
+      
+    <div class="w3-margin w3-center w3-card w3-padding-24">
+        <h3 class="w3-padding">Définir un mot de passe de connexion</h3>
+        <input id="password" class="w3-input w3-border" style="width:50%; left: 25%; position: relative;" type="password">
+        <br>
+        <button onclick="getPassword()" class="w3-button w3-green w3-xlarge" style="width:40%;">confirmer</button>
+        <br><br>
+    </div>
+
+    <div class="w3-margin w3-center w3-card w3-padding-24">
+        <h3 class="w3-padding ">Se connecter à une remorque</h3>
+        <input id="vehicleIdentifier" class="w3-input w3-border" style="width:50%; left: 25%; position: relative;" type="text">
+        <br>
+        <button onclick="getVehicleIdentifier()" class="w3-button w3-green w3-xlarge" style="width:40%;">confirmer</button>
+        <br><br>
+    </div>
+
+    <div class="w3-margin w3-center w3-card w3-padding-24">
+        <h3 class="w3-padding">Affichage</h3>
+        <button onclick="percentage()" class="w3-button w3-blue" style="width:40%;">Pourcentage</button>
+        <button onclick="kmH()" class="w3-button w3-blue" style="width:40%;">km/h</button>
+        <br><br>
+    </div>
+
+    <div class="w3-margin w3-center w3-card w3-padding-24">
+        <h3 class="w3-padding">Poids du vélo</h3>
+        <input id="weightBike" class="w3-input w3-border" style="width:50%; left: 25%; position: relative;" type="number" max="100" min="0">
+        <br>
+        <button onclick="getWeightBike()" class="w3-button w3-green w3-xlarge" style="width:40%;">confirmer</button>
+        <br><br>
+    </div>
+</body>
+
+</html>

@@ -13,7 +13,7 @@
 void Loop(){
   if (immobilizedVehicle != "true"){
     sensorValue = analogRead(A6);
-    sendSpeedToMotor = map(sensorValue, 830, 2980, 0, maxMotorSpeed);
+    sendSpeedToMotor = map(sensorValue, 850, 2990, 0, maxMotorSpeed);
     sendData();
     writeDisplay();
   }else{

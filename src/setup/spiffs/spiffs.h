@@ -20,5 +20,5 @@ getImmobilizedVehicle();
 getMaxMotorSpeed();
 getPassword();
 getVehicleIdentifier();
-getImmobilizedVehicle;
+getWeightBike();
 }

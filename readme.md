@@ -1,3 +1,6 @@
+#IMPORTANT
+Ce projet est la v1 de la télécommande connecté désormais ce projet s'appelle revego et plusieurs repo sont disponibles sur mon github plus stable et avec un code plus jolie et "logique"
+
 # Manette
 Ce projet est une manette permettant de communiquer sans fil avec une autre carte programmable avec le module nrf24l01 dessus
 

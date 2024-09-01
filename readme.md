@@ -1,4 +1,4 @@
-#IMPORTANT
+# IMPORTANT
 Ce projet est la v1 de la télécommande connecté désormais ce projet s'appelle revego et plusieurs repo sont disponibles sur mon github plus stable et avec un code plus jolie et "logique"
 
 # Manette
